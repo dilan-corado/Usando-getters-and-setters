@@ -8,7 +8,7 @@ public class Persona {
 	public Persona(String nombre, String apellido, int edad) {
 		this.nombre = nombre;
 		this.apellido = apellido;
-		this.edad = edad;
+		setEdad(edad);
 	}
 
 	public String getNombre() {
@@ -36,9 +36,10 @@ public class Persona {
 			this.edad = edad;
 		}
 		else  {
-			System.out.println("Error la edad no puede ser negativa"); }
+			System.out.println("Error la edad no puede ser negativa"); 
 			this.edad = 0;
 		}
+	}
 	
 	  public String mostrar() {
 	        return "Nombre: " + nombre + "\n" +
