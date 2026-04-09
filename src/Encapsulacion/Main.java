@@ -85,6 +85,56 @@ public class Main {
 		System.out.println(t1.mostrar());
 		System.out.println(t2.mostrar());
 		System.out.println(t3.mostrar());
+		
+		//Ejercicio 7
+		System.out.println("Ejercicio7");
+		System.out.println("");
+
+		Reloj r1 = new Reloj(10, 30, 45);
+		Reloj r2 = new Reloj(25, 70, 80); 
+		Reloj r3 = new Reloj(3, 5, 9);
+
+		System.out.println(r1.mostrarHora());
+		System.out.println(r2.mostrarHora());
+		System.out.println(r3.mostrarHora());
+		System.out.println("");
+		
+		//Ejercicio 8
+		System.out.println("Ejercicio 8");
+		System.out.println("");
+
+		Contacto cont1 = new Contacto("Dilan", "12345678", "dilan@gmail.com");
+		Contacto cont2 = new Contacto("Ana", "1234", "anaemail.com");
+		Contacto cont3 = new Contacto("Luis", "87654321", "luis@mail.com");
+
+		System.out.println(cont1.mostrarContacto());
+		System.out.println(cont2.mostrarContacto());
+		System.out.println(cont3.mostrarContacto());
+		
+		//Ejercicio 9
+		System.out.println("Ejercicio9");
+		System.out.println("");
+		
+		Jugador j1 = new Jugador("Dilan", 50);
+
+		System.out.println(j1.mostrar());
+
+		j1.actualizarPuntaje(80); 
+		j1.actualizarPuntaje(30);  
+		j1.actualizarPuntaje(-10); 
+
+		System.out.println(j1.mostrar());
+		
+		System.out.println("Ejercicio 10");
+		System.out.println("");
+
+		Factura f1 = new Factura("F001", "Laptop", 2, 5000);
+		Factura f2 = new Factura("F002", "Mouse", -3, 50);     
+		Factura f3 = new Factura("F003", "Teclado", 1, -100); 
+
+		System.out.println(f1.mostrarFactura());
+		System.out.println(f2.mostrarFactura());
+		System.out.println(f3.mostrarFactura());
 }
 }
 	
