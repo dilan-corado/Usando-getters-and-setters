@@ -37,7 +37,7 @@ public class Producto {
 	public void setPrecio(double precio) {
 		if (precio > 0) {
 			this.precio = precio;
-		} else { System.out.println("Error. El precio debe ser mayor a 0"); 
+		} else { System.out.println("Error, El precio debe ser mayor a 0"); 
 			this.precio = 0; }
 	}
 
